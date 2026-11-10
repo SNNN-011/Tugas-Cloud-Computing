@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Demo AWS Amplify - [NAMA]</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <p class="badge">Versi <strong id="version">1.0</strong></p>
+    <h1>Deploy otomatis dengan AWS Amplify</h1>
+    <p class="lead">Halaman ini di-hosting di AWS Amplify dan ter-update otomatis setiap kali kode di-push ke GitHub.</p>
+
+    <dl class="card">
+      <div><dt>Nama</dt><dd>M Yasin Aldinar</dd></div>
+      <div><dt>NIM</dt><dd>I.2410379</dd></div>
+      <div><dt>Mata kuliah</dt><dd>Cloud Computing</dd></div>
+      <div><dt>Layanan</dt><dd>AWS Amplify Hosting</dd></div>
+    </dl>
+
+    <ol class="flow" aria-label="Alur deployment">
+      <li>Push ke GitHub</li>
+      <li>Provision</li>
+      <li>Build</li>
+      <li>Deploy</li>
+      <li>Verify</li>
+    </ol>
+
+    <p class="foot">Dibuka pada <span id="time"></span></p>
+  </main>
+  <script>
+    document.getElementById("time").textContent = new Date().toLocaleString("id-ID");
+  </script>
+</body>
+</html>

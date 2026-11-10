@@ -1,0 +1,15 @@
+:root { --ink:#12263a; --paper:#eef3f7; --line:#c5d2de; --accent:#e8590c; }
+* { box-sizing: border-box; }
+body { margin:0; font-family: Georgia, "Times New Roman", serif; background:var(--paper); color:var(--ink); line-height:1.6; }
+main { max-width: 640px; margin: 0 auto; padding: 56px 24px; }
+h1 { font-size: clamp(1.9rem, 5vw, 2.6rem); line-height:1.15; margin:.4em 0 .3em; }
+.lead { font-size:1.1rem; max-width:52ch; }
+.badge { display:inline-block; margin:0; padding:4px 14px; border:2px solid var(--accent); color:var(--accent); border-radius:999px; font-family: system-ui, sans-serif; font-size:.9rem; }
+.card { margin:32px 0; border:1px solid var(--line); background:#fff; }
+.card div { display:flex; gap:16px; padding:12px 18px; border-bottom:1px solid var(--line); }
+.card div:last-child { border-bottom:0; }
+dt { width:120px; color:#5a6f82; font-family: system-ui, sans-serif; font-size:.9rem; }
+dd { margin:0; font-weight:bold; }
+.flow { list-style:none; display:flex; flex-wrap:wrap; gap:8px; padding:0; font-family: system-ui, sans-serif; font-size:.85rem; }
+.flow li { padding:6px 12px; background:var(--ink); color:#fff; }
+.foot { margin-top:40px; color:#5a6f82; font-size:.9rem; }
